@@ -173,7 +173,7 @@ const Passabi = () => {
           </div>
           <div className="md:w-1/2">
             {seData?.map((info, index) => (
-              <div ke={index} className="">
+              <div key={index} className="">
                 <div className="flex mt-12 space-between items-center">
                   <div className="w-[10%]">
                     {" "}
