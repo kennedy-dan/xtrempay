@@ -1,0 +1,54 @@
+.faq {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 40px;
+	/* h1 {
+		font-weight: 800;
+		font-size: 54px;
+		margin: 40px 0;
+		color: var(--secColor);
+		margin-left: 50px;
+	} */
+
+	.accordion {
+		width: 40%;
+		margin: auto auto;
+		margin-bottom: 30px;
+		align-items: center;
+	
+	}
+
+}
+
+@media screen and (max-width: 992px) {
+	
+
+	.faq {
+		
+
+		.accordion {
+			width: 60%;
+		}
+
+
+	}
+}
+
+@media screen and (max-width: 600px) {
+	
+
+	.faq {
+		/* h1 {
+			font-size: 28px;
+			margin-left: 0px;
+		} */
+
+		.accordion {
+			width: 80%;
+		}
+
+	
+	}
+}
