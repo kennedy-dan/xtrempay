@@ -29,7 +29,7 @@ const Security = () => {
         <p className="font-bold mb-1 text-[24px] " >END-TO-END SECURITY</p>
         <p className='md:py-0 py-4' >
           At Xtrempay, we understand that your financial well-being is not just
-          a matter of numbers; it's a matter of trust. That's why we've
+          a matter of numbers; it is a matter of trust. Thats why we have
           meticulously crafted an end-to-end security framework, ensuring that
           your financial data is safeguarded at every stage of your journey.
         </p>
