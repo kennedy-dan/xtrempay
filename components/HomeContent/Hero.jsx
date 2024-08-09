@@ -11,7 +11,7 @@ const Hero = () => {
           </p>
 
           <p className='text-[13px] font-[400] leading-[27px] md:mt-4 mt-2 ' >
-            Empower yourself with lightning fast transactions. <br /> Whether it's
+            Empower yourself with lightning fast transactions. <br /> Whether its
             transferring funds, paying bills. Explore the uncommon possibilities
             of digital banking.
           </p>
