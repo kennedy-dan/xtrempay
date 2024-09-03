@@ -15,7 +15,7 @@ const Hero = () => {
 
             <p className="md:text-[17px] text-[13px] font-[400] leading-[27px] md:mt-4 mt-2">
               Empower yourself with lightning fast transactions. <br className="md:block hidden" />  Whether
-              it's transferring funds, paying bills. Explore the <br className="md:block hidden" />  uncommon
+              its transferring funds, paying bills. Explore the <br className="md:block hidden" />  uncommon
               possibilities of digital banking.
             </p>
 
@@ -37,7 +37,7 @@ const Hero = () => {
             >
               <img src="/images/iphonehome.png" alt="" />
             </motion.div>
-            <div className="absolute md:block hidden top-[60%] right-28">
+            <div className="absolute md:block hidden top-[60%] right-24">
               <motion.div
                 className=""
                 initial={{ x: 100, opacity: 0 }}
