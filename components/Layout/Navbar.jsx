@@ -14,7 +14,7 @@ const Navbar = () => {
     setOpenAdv(false);
   };
   return (
-    <section className="md:px-20 px-5 pt-6 font-Poppins ">
+    <section className="md:px-20 px-5 z-[1000] pt-6 fixed bg-white w-full font-Poppins ">
       <div className="flex items-center justify-between">
         <Link href="/">
           <div>
@@ -38,15 +38,20 @@ const Navbar = () => {
           <Link href="/contactus">
             <p>About Us</p>
           </Link>
-
+{/* 
           <Link href="/faq">
           <p>Faq</p>
-          </Link>
+          </Link> */}
         </div>
 
         <div className="md:block hidden">
-          <button className="px-5 py-3 uppercase rounded-md border border-1 border-primary">
-            DOWNLOAD APP
+        <button className="border-primary border-1 border space-x-2  px-3 text-sm rounded-lg items-center jus py-4 text-black flex  ">
+           <div className="flex items-center space-x-2 "  >
+           <img className="w-4 " alt='' src="/images/apple.png" />
+           <img className="w-4 " alt='' src="/images/store.png" />
+
+           </div>
+            <span>DOWNLOAD APP</span>
           </button>
         </div>
 
@@ -79,9 +84,9 @@ const Navbar = () => {
             <img src="/images/navbarlogo.png" alt="" className=" " />
           </div>
           <div className=" space-y-9 font-Poppins  ">
-          <Link  href="/">
+          {/* <Link  href="/">
             <p className='mt-6'>Home</p>
-          </Link>
+          </Link> */}
 
           <Link  href="/moola">
             <p className='mt-6'>Moola</p>
@@ -91,13 +96,17 @@ const Navbar = () => {
             <p className='mt-6'>Passabi</p>
           </Link>
 
-          <Link  href="/contactus">
+          <Link  href="/about">
             <p className='mt-6'>About Us</p>
           </Link>
 
-          <Link  href="/faq">
-          <p className='mt-6'>Faq</p>
+          <Link  href="/contactus">
+            <p className='mt-6'>Contact</p>
           </Link>
+
+          {/* <Link  href="/faq">
+          <p className='mt-6'>Faq</p>
+          </Link> */}
           <button className="px-5 py-3 uppercase rounded-md border border-1 border-primary">
             DOWNLOAD APP
           </button>

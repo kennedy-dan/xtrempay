@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React, { useState } from "react";
-import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowDown, IoIosAddCircleOutline  } from "react-icons/io";
 import styles from  './faqs.module.css'
 export function Arrow() {
   return (
@@ -37,9 +37,9 @@ export default function Accordion({ item }) {
         className="flex items-center font-Poppins align-middle justify-between border-b border-b-black py-4 px-4"
         onClick={() => setShow(!show)}
       >
-        <p className="text-left text-[17px] tracking-tight">{item.title}</p>
+        <p className="text-left text-[14px] md:text-[17px] tracking-tight">{item.title}</p>
         <div className="">
-          <IoIosArrowDown className="w-8 h-8" />
+          <IoIosAddCircleOutline className="w-8 h-8 text-primary " />
         </div>
       </div>
 

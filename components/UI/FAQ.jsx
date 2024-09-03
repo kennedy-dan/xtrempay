@@ -13,17 +13,16 @@ export default function FAQ() {
     },
 
     {
-		title: "What is Xtrempay??",
-		details:
-		  "Xtrempay Xtrempay is designed to address specific challenges in the digital and financial space, supporting the informal financial sector and driving financial inclusion, In addition, we offer Passabi and Moola, which provides range of financial needs. ",
-	  },
+      title: "What is Xtrempay??",
+      details:
+        "Xtrempay Xtrempay is designed to address specific challenges in the digital and financial space, supporting the informal financial sector and driving financial inclusion, In addition, we offer Passabi and Moola, which provides range of financial needs. ",
+    },
 
-	  {
-		title: "What is Xtrempay??",
-		details:
-		  "Xtrempay Xtrempay is designed to address specific challenges in the digital and financial space, supporting the informal financial sector and driving financial inclusion, In addition, we offer Passabi and Moola, which provides range of financial needs. ",
-	  },
-  
+    {
+      title: "What is Xtrempay??",
+      details:
+        "Xtrempay Xtrempay is designed to address specific challenges in the digital and financial space, supporting the informal financial sector and driving financial inclusion, In addition, we offer Passabi and Moola, which provides range of financial needs. ",
+    },
   ];
 
   let moola = [
@@ -34,17 +33,16 @@ export default function FAQ() {
     },
 
     {
-		title: "What is Moola??",
-		details:
-		  "Moola  is designed to address specific challenges in the digital and financial space, supporting the informal financial sector and driving financial inclusion, In addition, we offer Passabi and Moola, which provides range of financial needs. ",
-	  },
+      title: "What is Moola??",
+      details:
+        "Moola  is designed to address specific challenges in the digital and financial space, supporting the informal financial sector and driving financial inclusion, In addition, we offer Passabi and Moola, which provides range of financial needs. ",
+    },
 
-	  {
-		title: "What is Moola??",
-		details:
-		  " Moola is designed to address specific challenges in the digital and financial space, supporting the informal financial sector and driving financial inclusion, In addition, we offer Passabi and Moola, which provides range of financial needs. ",
-	  },
-  
+    {
+      title: "What is Moola??",
+      details:
+        " Moola is designed to address specific challenges in the digital and financial space, supporting the informal financial sector and driving financial inclusion, In addition, we offer Passabi and Moola, which provides range of financial needs. ",
+    },
   ];
 
   let pass = [
@@ -55,64 +53,56 @@ export default function FAQ() {
     },
 
     {
-		title: "What is Passabi??",
-		details:
-		  "Passabi  is designed to address specific challenges in the digital and financial space, supporting the informal financial sector and driving financial inclusion, In addition, we offer Passabi and Moola, which provides range of financial needs. ",
-	  },
+      title: "What is Passabi??",
+      details:
+        "Passabi  is designed to address specific challenges in the digital and financial space, supporting the informal financial sector and driving financial inclusion, In addition, we offer Passabi and Moola, which provides range of financial needs. ",
+    },
 
-	  {
-		title: "What is Passabi??",
-		details:
-		  " Passabi is designed to address specific challenges in the digital and financial space, supporting the informal financial sector and driving financial inclusion, In addition, we offer Passabi and Moola, which provides range of financial needs. ",
-	  },
-  
+    {
+      title: "What is Passabi??",
+      details:
+        " Passabi is designed to address specific challenges in the digital and financial space, supporting the informal financial sector and driving financial inclusion, In addition, we offer Passabi and Moola, which provides range of financial needs. ",
+    },
   ];
-
 
   return (
     <section className={`faq`}>
-		<div className='flex justify-center mt-20 items-center font-Poppins space-x-3' >
-			<div>
-				<img src='/images/faqx.png'  alt='' className="w-16" />
-			</div>
-		<p className="text-black font-[500] text-[23px] ">Xtrempay</p>
-
-		</div>
+      <div className="flex justify-center mt-20 items-center font-Poppins space-x-3">
+        <div className='mb-4' >
+        <p className="text-center font-bold text-[18px] md:text-[22px]">
+          Frequently asked questions
+        </p>
+        <p className="text-center px-5 font-[500] mt-2 text-[14x] md:text-[16px]">
+          Everything you need to know about the product and billing.
+        </p>
+        </div>
+      
+      </div>
       <div className={`${styles.faq}`}>
         {data.map((item, index) => (
           <Accordion item={item} key={index} />
         ))}
       </div>
 
-	  <div>
-	  <div className='flex justify-center items-center font-Poppins space-x-3' >
-			<div>
+      <div>
+        <div className='flex justify-center' >
+          <img src='/images/qstns.png' className=" w-24" alt='' />
+        </div>
+        <p className="text-center text-black mt-4 font-[500]" >Still have questions?</p>
+        <p className="text-center text-gray-500 md:text-[16px] text-[13px] px-5 font-[400]">Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
+        <div className="mt-4 justify-center flex " >
+          <button className="bg-primary rounded-lg text-white px-4 py-3" >Get in touch</button>
+        </div>
+      </div>
+
+      <div>
+        <div className="flex justify-center items-center font-Poppins space-x-3">
+          {/* <div>
 				<img src='/images/moolafaq.png'  alt='' className="w-16" />
 			</div>
-		<p className="text-black font-[500] text-[23px] ">Moola</p>
-
-		</div>
-      <div className={`${styles.faq}`}>
-        {moola.map((item, index) => (
-          <Accordion item={item} key={index} />
-        ))}
+		<p className="text-black font-[500] text-[23px] ">Moola</p> */}
+        </div>
       </div>
-	  </div>
-
-	  <div>
-	  <div className='flex justify-center items-center font-Poppins space-x-3' >
-			<div>
-				<img src='/images/passfaq.png'  alt='' className="w-16" />
-			</div>
-		<p className="text-black font-[500] text-[23px] ">Passabi</p>
-
-		</div>
-      <div className={`${styles.faq}`}>
-        {pass.map((item, index) => (
-          <Accordion item={item} key={index} />
-        ))}
-      </div>
-	  </div>
     </section>
   );
 }

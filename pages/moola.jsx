@@ -1,22 +1,24 @@
 import Layout from "@/components/Layout/Layout";
+import FAQ from "@/components/UI/FAQ";
+import HowTo from "@/components/UI/HowTo";
 import React from "react";
 
 const Moola = () => {
   const seData = [
     {
-      name: "Prize-linked savings",
+      name: "Guaranteed Principal",
       img: "/images/good.png",
-      msg: "Save and unlock the chance of winning cash prizes and lot of rewards.",
+      msg: "Your original deposit is safe and will be returned to you at the end of the term.",
     },
     {
-      msg: "Experience  secured and seamless online and offline shopping experience ",
+      msg: "There’s a chance to win a prize  ",
       img: "/images/good.png",
-      name: "Debit Cards ",
+      name: "Potential for Prizes ",
     },
     {
-      msg: "Set goals, track spending, lock savings, earn interest and win cash prizes. the more you save the more your chances of entries into weekly drawing.",
+      msg: "The deposit is held for a specified period, similar to a traditional fixed savings account.",
       img: "/images/good.png",
-      name: "Linked Account",
+      name: "Fixed Term",
     },
     {
       msg: "Moola helps you save money without manual effort, promoting financial discipline.",
@@ -30,10 +32,10 @@ const Moola = () => {
   ];
   return (
     <Layout>
-      <section className="font-Poppins pt-10">
+      <section className="font-Poppins pt-40 md:pt-20">
         <div className="md:flex justify-between items-center md:px-20 px-5">
           <div>
-            <p className="text-primary font-bold text-[34px] md:text-[51px]">MOOLA</p>
+            <p className=" font-bold text-[34px] md:text-[51px] text-[#FF6666]">Moola</p>
 
             <p className=" font-bold text-[27px] md:text-[40px]">A new way of saving </p>
             <p className=" font-[500]  text-[27px] md:text-[40px]">Save and win N1m Weekly</p>
@@ -46,16 +48,69 @@ const Moola = () => {
             </p>
           </div>
           <div className="md:mt-0 mt-5" >
-            <img src='/images/moolahero.png' className='w-[500px]' alt='' />
+            <img src='/images/molahome.png' className='w-[500px]' alt='' />
           </div>
         </div>
 
-        <div className="md:flex px-5 md:px-20 pt-28">
-          <div className='md:w-1/2' >
-            <img src='/images/moolaimg.png' className='h-[560px] w-[]' alt='' />
+        <p className="text-center text-gray-600 mt-20 px-5 font-[500] text-[18px] md:text-[32px]">
+        Unlock Your Financial Potential – Save, Earn, Win
+      </p>
+      <div className="justify-center md:px-[20] px-5  flex w-full">
+        <img src="/images/under.png" className="w-20" alt="" />
+      </div>
+      <div className="md:flex justify-between md:px-[20] pt-10 px-5 md:space-x-16 ">
+        <div className="md:w-1/2">
+          <img src="/images/serve.png" alt="" />
+        </div>
+
+        <div className="md:w-1/2 md:mt-0 mt-16">
+          <div>
+            <p className="font-[500] text-[18px] md:text-[32px]">Fixed Savings</p>
+
+            {/* <p className="font-semibold text-[20px] py-4">Secure Gateway</p> */}
+
+            <p className="text-[13px] md:text-[18px] text-gray-600 mt-3">
+              Create an exciting Saving plan for 3-12 month and get a chance to
+              win millions, Instead of receiving higher interest, a portion of
+              the interest that would have been earned is pooled together to
+              fund a prize draw. The prize could be in the form of cash, goods,
+              or other incentives, and the draw occurs periodically{" "}
+              <span className="text-primary">
+                (e.g., weekly, monthly, quarterly).
+              </span>  <br className='md:block hidden' />
+              Account holders are automatically entered into these draws based
+              on their deposits. The more you deposit, the more entries you
+              might get.
+            </p>
           </div>
-          <div className='md:w-1/2 md:mt-0 mt-16'>
-            <p className="font-bold text-[21px]" >Moola Features</p>
+          <div>
+            <p className="font-[500] text-[13px] md:text-[32px] mt-10">Raffle Savings</p>
+
+            {/* <p className="font-semibold text-[20px] py-4">Secure Gateway</p> */}
+
+            <p className=" text-[13px] md:text-[18px] text-gray-600">
+              Raffle save accounts - a creative way to promote savings, blending
+              traditional banking with a bit of fun and excitement. Create a
+              weekly, monthly and quarterly saving plan, And get a chance{" "}
+              <span className="text-primary">to win cash prizes. </span>
+              Your deposit is save.
+            </p>
+          </div>
+
+          {/* <div>
+          <button className="px-5 py-3 mt-10 uppercase flex rounded-md space-x-2 text-[18px] items-center justify-center border border-1 border-primary">
+            <p>see more</p>
+            <img src='/images/arrow.png' alt='' className=' ' />
+          </button>
+          </div> */}
+      
+        </div>
+      </div>
+
+        <div className="md:flex items-center justify-between px-5 md:px-20 bg-[#F1F6F9] mt-10 pt-1 md:pt-28">
+         
+          <div className=' md:mt-0 mt-16'>
+            <p className="font-[500] text-[21px]" >Moola Features</p>
             {seData?.map((info, index) => (
               <div key={index} className="">
                 <div className="flex mt-12 space-between items-center">
@@ -71,29 +126,18 @@ const Moola = () => {
               </div>
             ))}
           </div>
+          <div className='md:mt-0 mt-10' >
+            <img src='/images/moolafeat.png' className='h-[560px] w-[]' alt='' />
+          </div>
         </div>
 
-        <div className="pt-28 md:px-28 px-9 font-Poppins " >
+        {/* <div className="pt-28 md:px-28 px-9 font-Poppins " >
             <img src='/images/mooladivide.png' alt='' />
-        </div>
+        </div> */}
 
-        <div className="md:mx-20 mx-5 bg-primary md:flex mt-28 md:px-20 px-5 justify-between py-10 items-center "  >
-          <div>
-            <img src='/images/signup.png'className='w-[400px]' alt='' />
-          </div>
+        <HowTo />
 
-          <div>
-            <p className="font-bold text-[34px] md:mt-0 mt-9 " >How do i sign up 
-            to Moola?</p>
-
-            <p className="text-white py-4 md:py-9">Download Xtrempay app <br />
-            Create your Moola account on Xtrempay<br />  start saving, Start winning</p>
-
-            <div>
-              <img src='/images/play.png' alt='' />
-            </div>
-          </div>
-        </div>
+        <FAQ />
       </section>
     </Layout>
   );

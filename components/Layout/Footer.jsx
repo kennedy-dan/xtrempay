@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -25,37 +26,57 @@ const Footer = () => {
         <div className="md:mt-0 mt-9">
           <p className="font-semibold">Page Links</p>
           <div className="space-y-1">
-            <p className="mt-4">Home</p>
-            <p>Features</p>
-            <p>About Us</p>
-            <p>Contact</p>
+            <Link href="/moola">
+              <p className="mt-4">Moola</p>
+            </Link>
+            <Link href="/passabi">
+              <p>Passabi</p>
+            </Link>
+            <Link href="/about">
+              <p>About Us</p>
+            </Link>
+            <Link href="/contactus">
+              <p>Contact</p>
+            </Link>
           </div>
         </div>
 
         <div className="md:mt-0 mt-9">
-          <p className="font-semibold">Location</p>
-          <img className="mt-4"  alt='' src="/images/loc.png" />
-        </div>
+          <p className="text-primary font-[600]">Join our newsletter</p>
+          <p className="font-[400]">
+            We’ll send you a nice letter once per week. No spam.
+          </p>
 
-        <div className="flex md:mt-0 mt-9 items-center space-x-4">
-          <div>
-            <img src="/images/fb.png" alt="" />
+          <div className="flex space-x-3 mt-3">
+            <div className="w-[70%]">
+              <input
+                placeholder="Enter your email"
+                className="bg-white w-full px-3 border border-1 border-gray-500 rounded-lg h-14 "
+              />
+            </div>
+            <div className="w-[30%]">
+              <button className="rounded-lg h-14 w-full bg-primary text-white">
+                Subscribe
+              </button>
+            </div>
           </div>
-          <div>
-            <img src="/images/in.png" alt="" />
+          <div className="flex  mt-9 items-center space-x-4">
+            <div>
+              <img src="/images/fb.png" alt="" />
+            </div>
+            <div>
+              <img src="/images/in.png" alt="" />
+            </div>
+            <div>
+              <img src="/images/gram.png" alt="" />
+            </div>
           </div>
-          <div>
-            <img src="/images/gram.png" alt="" />
-          </div>
+          {/* <img className="mt-4"  alt='' src="/images/loc.png" /> */}
         </div>
       </div>
-      <p className="md:text-center text-[14px] md:px-20 px-5">
-        Xtrempay and featured customers are financial technology companies and
-        not a bank. Banking services are provided by our partner banks who are
-        duly licensed by the CBN.
-      </p>
-      <div className='flex bg-black text-white text-[13px] py-3 space-x-1 mt-3  w-full justify-center' >
-        <img src='/images/c.png'  alt='' className='' />
+
+      <div className="flex bg-black text-white text-[13px] py-3 space-x-1 mt-3  w-full justify-center">
+        <img src="/images/c.png" alt="" className="" />
         <p>2024 Xtrempay. All Rights Reserved.</p>
       </div>
     </div>

@@ -9,6 +9,11 @@
     /* // position: relative; */
     overflow: visible;
   }
+
+  .scrollcont::-webkit-scrollbar {
+    display: none !important;
+  }
+  
   
   .p-carousel-prev {
     align-self: center;
@@ -17,22 +22,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: visible !important;
+    overflow: hidden;
     position: absolute !important;
-    /* // background: red !important; */
+    background: white !important;
     height: 40px !important;
-    left: 84%;
-    top: 90%;
-    z-index: 100 !important;
+    left: 5%;
+    z-index: 1;
     /* // bottom:55% !important; */
-
-    width: 90px !important;
+    width: 40px !important;
     border-radius: 100%;
-    border: 1px;
-    padding: 10px !important;
-    border-width: 4px !important;
-    border-color: green !important;
+    /* padding: 10px; */
   }
+  
   
   .p-carousel-next {
     align-self: center;
@@ -43,23 +44,20 @@
     align-items: center;
     overflow: hidden;
     position: absolute !important;
-    /* // background: red !important; */
+    background: #FF9227 !important;
     height: 40px !important;
-    right: 7%;
-    top: 90%;
-    border-width: 4px !important;
-    border-color: black !important;
-  
-    z-index: 100;
+    right: 6%;
+    z-index: 1;
     /* // bottom:55% !important; */
     width: 40px !important;
     border-radius: 100%;
-    padding: 10px !important ;
+    /* padding: 10px; */
   }
+  
   
   @media only screen and (max-width: 767px) {
     .p-carousel-prev {
-      left: 70% !important;
+      /* left: 70% !important; */
     }
   }
   .p-carousel .p-carousel-indicators .p-carousel-indicator button {

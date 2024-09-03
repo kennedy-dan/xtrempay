@@ -1,6 +1,8 @@
 import React from "react";
 import { Carousel as AntCarousel } from "antd/lib";
 import Layout from "@/components/Layout/Layout";
+import HowTo from "@/components/UI/HowTo";
+import FAQ from "@/components/UI/FAQ";
 
 const Passabi = () => {
   const sliderData = [
@@ -43,49 +45,51 @@ const Passabi = () => {
   ];
   return (
     <Layout>
-      <section className="font-Poppins">
-        <div className="">
-          <AntCarousel autoplay effect="fade" speed={1500}>
-            {sliderData.map((img, index) => (
-              <div className="relative  h-[50vh] " key={index}>
-                <div
-                  style={{ backgroundImage: `url(${img.img})` }}
-                  className={`  w-full h-full flex items-center justify-center bg-cover bg-center bg-gray-200`}
-                >
-                  {/* <img src={img.img} className="object-cover w-screen h-full" /> */}
-                  <div className="text-center text-white font-bold text-[43px] ">
-                    <p>PASSABI</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </AntCarousel>
+      <section className="font-Poppins ">
+        <div className="md:flex justify-between items-center pt-40 md:px-20 px-5">
+          <div>
+            <p className="text-[#FF6666] font-bold text-[34px] md:text-[51px]">
+              Passabi
+            </p>
+
+            <p className=" font-bold text-[27px] md:text-[40px]">
+              Revolutionizing Thrift{" "}
+            </p>
+            <p className=" font-[500]  text-[27px] md:text-[40px]">
+              For a brighter tomorrow
+            </p>
+            <p className="font-[400] text-[13px] pt-5">
+              Passabi brings modern innovation to traditional thrift groups,<br />
+              empowering communities to save more, earn interest, and <br /> access
+              affordable credit. Secure your future with Passabi—<br />where tradition
+              meets technology
+            </p>
+            <div className='mt-5' >
+          <button className="border-primary border-1 border space-x-2 md:w-[37%] w-[45%] pl-2 text-sm rounded-xl items-center jus py-3 text-black flex  ">
+           <div className="flex items-center space-x-2 "  >
+           <img className="w-4 " alt='' src="/images/apple.png" />
+           <img className="w-4 " alt='' src="/images/store.png" />
+
+           </div>
+            <span>DOWNLOAD APP</span>
+          </button>
         </div>
-        <div>
-          <p className="font-[500] mt-9 text-[18px] md:text-[30px] text-center">
-            Redefining Ajo, Adashe, Esusu for small business owners.
-            <br className='md:block hidden' /> Alternative for way to save and borrow money for Micro,
-            <br className='md:block hidden'  /> Small, and Medium Enterprises.
-          </p>
-          <p className="text-[13px] mt-4 font-[400] text-center">
-            Passabi offers seamless group savings and provide access to no
-            interest loans for individual members that have come together to
-            solve their money
-            <br className='md:block hidden' /> challenges. Digitalize rotating savings platform that is
-            seamlessly integrates with commercial bank and
-            <br className='md:block hidden' /> fin-tech companies to offers access to secure and easy to use
-            financial services
-          </p>
+          </div>
+          <div className="md:mt-0 mt-5">
+            <img src="/images/passabihom.png" className="w-[500px]" alt="" />
+          </div>
         </div>
 
+ 
+
         <section className="md:px-20 px-5 mt-28 py-16 font-Poppins bg-[#F1F1F1]">
-          <div className="md:flex justify-between items-center">
+          <div className="md:flex justify-between ">
             <div className="md:w-1/2">
-              <p className="font-bold text-[28px] md:text-[50px]">
-                GET TO KNOW
-                <br /> ABOUT PASSABI{" "}
+              <p className="font-[600] text-[18px] md:text-[40px]">
+                GET TO KNOW ABOUT
+                <br className='hidden md:block' /> PASSABI{" "}
               </p>
-              <p className="text-[14px] font-[400] md:w-[75%] ">
+              <p className="mt-2 md:text-[18px] text-[14px] font-[400] md:w-[75%] ">
                 Passabi offers seamless group savings and provide access to no
                 interest loans for individual members that have come together to
                 solve their money challenges. Digitalize rotating savings
@@ -95,11 +99,13 @@ const Passabi = () => {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-6 md:w-[60%]">
-              <div>
-                <p className="font-bold text-[43px]">01</p>
+            <div className="grid md:grid-cols-2 grid-cols-1 mt-10 md:mt-0 gap-6 md:w-[60%]">
+              <div className="bg-[#FFEAD4] px-6 py-5">
+                <p className="font-bold text-[#FFDBA8] rounded-2xl text-[20px] md:text-[43px]">
+                  01
+                </p>
 
-                <p className="font-semibold text-[20px] py-4">
+                <p className="font-semibold text-[16px] md:text-[20px] py-4">
                   No interest Loan
                 </p>
 
@@ -110,10 +116,10 @@ const Passabi = () => {
                   making it easier to manage and repay loans.
                 </p>
               </div>
-              <div>
-                <p className="font-bold text-[43px]">02</p>
+              <div className="bg-[#FFEAD4] rounded-2xl px-6 py-5">
+                <p className="font-bold text-[#FFDBA8] text-[20px] md:text-[43px]">02</p>
 
-                <p className="font-semibold text-[20px] py-4">
+                <p className="font-semibold text-[16px] md:text-[20px py-4">
                   Customize Contribution Plan{" "}
                 </p>
 
@@ -126,10 +132,10 @@ const Passabi = () => {
                   achievable.
                 </p>
               </div>{" "}
-              <div>
-                <p className="font-bold text-[43px]">03</p>
+              <div className="bg-[#FFEAD4] rounded-2xl px-6 py-5">
+                <p className="font-bold text-[#FFDBA8] text-[20px] md:text-[43px]">03</p>
 
-                <p className="font-semibold text-[20px] py-4">
+                <p className="font-[600] text-[16px] md:text-[20px] py-4">
                   Saving and loan Management{" "}
                 </p>
 
@@ -141,10 +147,10 @@ const Passabi = () => {
                   providing a structured approach to loan repayment.
                 </p>
               </div>{" "}
-              <div>
-                <p className="font-bold text-[43px]">04</p>
+              <div className="bg-[#FFEAD4] px-6 py-5 rounded-2xl">
+                <p className="font-bold text-[#FFDBA8] text-[20px] md:text-[43px]">04</p>
 
-                <p className="font-semibold text-[20px] py-4">
+                <p className="font-semibold text-[16px] md:text-[20px] py-4">
                   Instant SMS & Email Notification{" "}
                 </p>
 
@@ -159,37 +165,38 @@ const Passabi = () => {
             </div>
           </div>
         </section>
-        <div className='md:px-20 px-5 pt-28' >
-        <p className="font-bold text-[30px] mb-6 text-center">Passabi Features</p>
+        <div className="md:px-20 px-5 pt-28">
+          <div className="md:flex ">
+            <div className="md:w-1/2">
+              <img
+                src="/images/passabiimg.png"
+                className="h-[560px] w-[]"
+                alt=""
+              />
+            </div>
+            <div className="md:w-1/2">
+              <p className="font-bold text-[30px] mb-6 ">Passabi Features</p>
 
-        <div className="md:flex ">
-
-          <div className="md:w-1/2">
-            <img
-              src="/images/passabiimg.png"
-              className="h-[560px] w-[]"
-              alt=""
-            />
-          </div>
-          <div className="md:w-1/2">
-            {seData?.map((info, index) => (
-              <div key={index} className="">
-                <div className="flex mt-12 space-between items-center">
-                  <div className="w-[10%]">
-                    {" "}
-                    <img alt="" className="w-8" src={info?.img} />
-                  </div>
-                  <div className="w-[90%]">
-                    <p className="text-[16px] font-bold">{info?.name}</p>
-                    <p className="text-[13px]">{info?.msg}</p>
+              {seData?.map((info, index) => (
+                <div key={index} className="">
+                  <div className="flex mt-12 space-between items-center">
+                    <div className="w-[10%]">
+                      {" "}
+                      <img alt="" className="w-8" src={info?.img} />
+                    </div>
+                    <div className="w-[90%]">
+                      <p className="text-[16px] font-bold">{info?.name}</p>
+                      <p className="text-[13px]">{info?.msg}</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
-        </div>
-     
+
+        <HowTo />
+        <FAQ />
       </section>
     </Layout>
   );

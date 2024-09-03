@@ -4,7 +4,7 @@ import Layout from "@/components/Layout/Layout";
 import Hero from "@/components/HomeContent/Hero";
 import Use from "@/components/HomeContent/Use";
 import Do from "@/components/HomeContent/Do";
-import Service from "@/components/HomeContent/Service";
+import Scroll from "@/components/HomeContent/Scroll";
 import Reviews from "@/components/HomeContent/Reviews";
 import Security from "@/components/HomeContent/Security";
 import Agents from "@/components/HomeContent/Agents";
@@ -17,9 +17,9 @@ export default function Home() {
     <Hero />
     <Use />
     <Do />
-    <Service />
+    <Scroll />
     <Reviews />
-    <Security />
+    {/* <Security /> */}
     <Agents />
   </Layout>
   );
