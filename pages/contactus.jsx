@@ -11,14 +11,14 @@ const Contactus = () => {
         <p className="text-[#FF6666] text-center md:text-[24px] text-[16] font-[600] pt-40">
           Contact us
         </p>
-        <p className="text-center font-[600] text-[17] md:text-[34px] ">
+        <p className="text-center font-[600] py-3 text-[17] md:text-[34px] ">
           We’d love to hear from you
         </p>
         <p className="text-center font-[500] text-[14px] md:text-[20px] ">
           Our friendly team is always here to chat.
         </p>
 
-        <div className="grid md:grid-cols-4 grid-cols-2 gap-4 mt-10 px-5 md:px-20">
+        <div className="grid md:grid-cols-4 grid-cols-2 gap-3 md:gap-7 mt-10 md:mt-20 px-5 md:px-20">
           <di>
             <img src="/images/con1.png" />
           </di>
@@ -34,7 +34,7 @@ const Contactus = () => {
         </div>
 
         <div></div>
-        <div className="md:flex md:px-20 px-5 md:pt-16 mt-5 mb-9">
+        <div className="md:flex md:px-20 px-5 md:pt-16 mt-5 mb-28">
           <div className="md:w-1/2 font-montserrat ">
             <p className="font-semibold text-[18px] md:text-[34px] ">Send us a message</p>
             <p className='' >Our friendly team would love to hear from you.</p>
