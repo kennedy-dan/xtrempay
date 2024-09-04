@@ -3,9 +3,13 @@ import { Drawer, Space } from "antd/lib";
 import { MdOutlineCancel } from "react-icons/md";
 import { IoIosMenu } from "react-icons/io";
 import Link from "next/link";
+import { useRouter } from "next/router";  // Import useRouter
+
 const Navbar = () => {
   const [advplacement, setadvPlacement] = useState("left");
   const [openadv, setOpenAdv] = useState(false);
+  const router = useRouter();  // Initialize useRouter
+
   const showDrawerAdv = () => {
     setOpenAdv(true);
   };
@@ -14,7 +18,7 @@ const Navbar = () => {
     setOpenAdv(false);
   };
   return (
-    <section className="md:px-20 px-5 z-[1000] pt-6 fixed bg-white w-full font-Poppins ">
+    <section className="md:px-20 px-5 z-[1000] pt-6 pb-2 fixed  bg-white w-full font-Poppins ">
       <div className="flex items-center justify-between">
         <Link href="/">
           <div>
@@ -22,27 +26,24 @@ const Navbar = () => {
           </div>
         </Link>
 
-        <div className="hidden space-x-6 md:flex ">
-        <Link  href="/moola">
-            <p className='mt-6'>Moola</p>
+        <div className="hidden space-x-6 md:flex">
+          <Link href="/moola">
+            <p className={`mt-6 ${router.pathname === '/moola' ? 'text-primary' : ''}`}>Moola</p>
           </Link>
 
-          <Link  href="/passabi">
-            <p className='mt-6'>Passabi</p>
+          <Link href="/passabi">
+            <p className={`mt-6 ${router.pathname === '/passabi' ? 'text-primary' : ''}`}>Passabi</p>
           </Link>
 
-          <Link  href="/about">
-            <p className='mt-6'>About Us</p>
+          <Link href="/about">
+            <p className={`mt-6 ${router.pathname === '/about' ? 'text-primary' : ''}`}>About Us</p>
           </Link>
 
-          <Link  href="/contactus">
-            <p className='mt-6'>Contact</p>
+          <Link href="/contactus">
+            <p className={`mt-6 ${router.pathname === '/contactus' ? 'text-primary' : ''}`}>Contact</p>
           </Link>
-{/* 
-          <Link href="/faq">
-          <p>Faq</p>
-          </Link> */}
         </div>
+
 
         <div className="md:block hidden">
         <button className="border-primary border-1 border space-x-2  px-3 text-sm rounded-lg items-center jus py-4 text-black flex  ">

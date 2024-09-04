@@ -56,7 +56,7 @@ const Reviews = () => {
 
   const productTemplateOthers = (reviewDatas, index) => {
     return (
-      <div className="  relative  border-round mr-4  bg-[#FFEAD4] mt-9  text-center py-5 px-16 ">
+      <div className="  relative  border-round mx-6  bg-[#FFEAD4] mt-9 rounded-lg  text-center py-5 px-14 ">
         <div className='flex justify-center' >
         <img
           src={reviewDatas.img}
@@ -71,7 +71,10 @@ const Reviews = () => {
         <div className="absolute top-[5%] right-[10%] z-1 ">
           {/* <CiHeart className="w-8 h-8 text-white" /> */}
         </div>
-        <p className="font-bold text-[14px] text-center text-gray-500 mt-6">
+          <p className="font-bold text-[18px]  text-center text-gray-800 mt-6">
+          {reviewDatas?.name}
+        </p>
+        <p className="font-[400] text-[14px] text-center text-gray-500 mt-6">
           {reviewDatas?.msg}
         </p>
         <p className="text-gray-400 text-xl text-left mt-2">

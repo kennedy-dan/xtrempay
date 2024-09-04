@@ -6,7 +6,7 @@ const about = () => {
   return (
     <Layout>
       <section className="font-Poppins">
-        <p className="text-[#FF6666] text-center md:text-[24px] text-[16] font-[500] pt-28 md:pt-40">
+        <p className="text-[#FF6666] text-center md:text-[24px] text-[16] font-[600] pt-28 md:pt-40">
           About us
         </p>
         <p className="text-center font-[600] text-[17] md:text-[34px] ">

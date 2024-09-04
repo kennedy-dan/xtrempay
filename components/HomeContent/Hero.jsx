@@ -31,7 +31,7 @@ const Hero = () => {
           <div className="relative md:w-[55%]">
             <motion.div
               className=""
-              initial={{ y: 80, opacity: 0 }}
+              initial={{ y: 190, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
             >

@@ -85,17 +85,12 @@ const Passabi = () => {
         <section className="md:px-20 px-5 mt-28 py-16 font-Poppins bg-[#F1F1F1]">
           <div className="md:flex justify-between ">
             <div className="md:w-1/2">
-              <p className="font-[600] text-[18px] md:text-[40px]">
+              <p className="font-[600] text-[18px] md:text-[32px]">
                 GET TO KNOW ABOUT
                 <br className='hidden md:block' /> PASSABI{" "}
               </p>
               <p className="mt-2 md:text-[18px] text-[14px] font-[400] md:w-[75%] ">
-                Passabi offers seamless group savings and provide access to no
-                interest loans for individual members that have come together to
-                solve their money challenges. Digitalize rotating savings
-                platform that is seamlessly integrates with commercial bank and
-                fin-tech companies to offers access to secure and easy to use
-                financial services
+              Our platform addresses these concerns by securely storing funds through licensed financial partnerships, ensuring contributors' savings earn interest. 
               </p>
             </div>
 
@@ -165,11 +160,11 @@ const Passabi = () => {
             </div>
           </div>
         </section>
-        <div className="md:px-20 px-5 pt-28">
+        <div className="md:px-20 px-5 pt-28 mb-10">
           <div className="md:flex ">
             <div className="md:w-1/2">
               <img
-                src="/images/passabiimg.png"
+                src="/images/passfeat.png"
                 className="h-[560px] w-[]"
                 alt=""
               />
