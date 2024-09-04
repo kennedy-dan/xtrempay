@@ -57,13 +57,17 @@ const Reviews = () => {
   const productTemplateOthers = (reviewDatas, index) => {
     return (
       <div className="  relative  border-round mr-4  bg-[#FFEAD4] mt-9  text-center py-5 px-16 ">
-        <Image
+        <div className='flex justify-center' >
+        <img
           src={reviewDatas.img}
-          width={500}
-          height={500}
+          // width={500}
+          // height={500}
           alt=""
+          className='object-contain'
           // className="h-[400px] w-[400px] rounded-full shadow object-cover "
         />
+        </div>
+     
         <div className="absolute top-[5%] right-[10%] z-1 ">
           {/* <CiHeart className="w-8 h-8 text-white" /> */}
         </div>

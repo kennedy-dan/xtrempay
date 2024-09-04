@@ -23,20 +23,20 @@ const Navbar = () => {
         </Link>
 
         <div className="hidden space-x-6 md:flex ">
-          <Link href="/">
-            <p>Home</p>
+        <Link  href="/moola">
+            <p className='mt-6'>Moola</p>
           </Link>
 
-          <Link href="/moola">
-            <p>Moola</p>
+          <Link  href="/passabi">
+            <p className='mt-6'>Passabi</p>
           </Link>
 
-          <Link href="/passabi">
-            <p>Passabi</p>
+          <Link  href="/about">
+            <p className='mt-6'>About Us</p>
           </Link>
 
-          <Link href="/contactus">
-            <p>About Us</p>
+          <Link  href="/contactus">
+            <p className='mt-6'>Contact</p>
           </Link>
 {/* 
           <Link href="/faq">

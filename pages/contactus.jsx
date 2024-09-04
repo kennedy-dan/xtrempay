@@ -34,7 +34,7 @@ const Contactus = () => {
         </div>
 
         <div></div>
-        <div className="md:flex md:px-20 px-5 md:pt-16 mt-5">
+        <div className="md:flex md:px-20 px-5 md:pt-16 mt-5 mb-9">
           <div className="md:w-1/2 font-montserrat ">
             <p className="font-semibold text-[18px] md:text-[34px] ">Send us a message</p>
             <p className='' >Our friendly team would love to hear from you.</p>
@@ -73,7 +73,7 @@ const Contactus = () => {
               />
             </div>
             <div className="mt-10">
-              <button className="w-[96%] bg-primary text-white py-6 rounded-3xl font-semibold text-[16px] ">
+              <button className="w-[96%] bg-primary text-white py-6 rounded-lg font-semibold text-[16px] ">
                 Send Message
               </button>
             </div>
