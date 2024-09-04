@@ -32,13 +32,13 @@ const Moola = () => {
   ];
   return (
     <Layout>
-      <section className="font-Poppins pt-40 md:pt-20">
+      <section className="font-Poppins pt-40 md:pt-24">
         <div className="md:flex justify-between items-center md:px-20 px-5">
           <div>
             <p className=" font-bold text-[34px] md:text-[51px] text-[#FF6666]">Moola</p>
 
             <p className=" font-bold text-[27px] md:text-[40px]">A new way of saving </p>
-            <p className=" font-[500]  text-[27px] md:text-[40px]">Save and win N1m Weekly</p>
+            <p className=" font-[500] text-primary text-[27px] md:text-[40px]">Save and win N1m Weekly</p>
             <p className="font-[400] text-[13px] pt-5">
               Moola is a financial app that offers prize linked savings
               <br /> account as an alternative to traditional interest based
@@ -46,6 +46,16 @@ const Moola = () => {
               <br /> exciting chance of wining a cash prize in return for
               <br /> saving money into Moola account
             </p>
+            <div className='mt-5' >
+          <button className="border-primary border-1 border space-x-2 md:w-[37%] w-[45%] pl-2 text-sm rounded-xl items-center jus py-3 text-black flex  ">
+           <div className="flex items-center space-x-2 "  >
+           <img className="w-4 " alt='' src="/images/apple.png" />
+           <img className="w-4 " alt='' src="/images/store.png" />
+
+           </div>
+            <span>DOWNLOAD APP</span>
+          </button>
+        </div>
           </div>
           <div className="md:mt-0 mt-5" >
             <img src='/images/molahome.png' className='w-[500px]' alt='' />

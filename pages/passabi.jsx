@@ -46,16 +46,16 @@ const Passabi = () => {
   return (
     <Layout>
       <section className="font-Poppins ">
-        <div className="md:flex justify-between items-center pt-40 md:px-20 px-5">
+        <div className="md:flex justify-between items-center pt-40 md:px-24 px-5">
           <div>
             <p className="text-[#FF6666] font-bold text-[34px] md:text-[51px]">
               Passabi
             </p>
 
-            <p className=" font-bold text-[27px] md:text-[40px]">
+            <p className=" font-semibold text-[27px] md:text-[40px]">
               Revolutionizing Thrift{" "}
             </p>
-            <p className=" font-[500]  text-[27px] md:text-[40px]">
+            <p className=" font-[500] text-primary  text-[27px] md:text-[40px]">
               For a brighter tomorrow
             </p>
             <p className="font-[400] text-[13px] pt-5">
