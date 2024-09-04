@@ -90,7 +90,7 @@ const Passabi = () => {
                 <br className='hidden md:block' /> PASSABI{" "}
               </p>
               <p className="mt-2 md:text-[18px] text-[14px] font-[400] md:w-[75%] ">
-              Our platform addresses these concerns by securely storing funds through licensed financial partnerships, ensuring contributors' savings earn interest. 
+              Our platform addresses these concerns by securely storing funds through licensed financial partnerships, ensuring contributors savings earn interest. 
               </p>
             </div>
 
