@@ -37,14 +37,14 @@ const Hero = () => {
             >
               <img src="/images/iphonehome.png" alt="" />
             </motion.div>
-            <div className="absolute md:block hidden top-[60%] right-24">
+            <div className="absolute top-[60%] right-6 md:right-24">
               <motion.div
                 className=""
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
               >
-                <img src="/images/happy.png" alt="" />
+                <img src="/images/happy.png" alt="" className='md:w-fit md:h-fit w-[200px] h-[76px] object-cover' />
               </motion.div>
             </div>
           </div>

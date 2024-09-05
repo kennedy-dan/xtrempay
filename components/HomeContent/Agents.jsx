@@ -11,7 +11,7 @@ const Agents = () => {
         </p>
 
         <div>
-          <button className="border-primary border-1 border space-x-2 md:w-[37%] w-[45%] pl-2 text-sm rounded-xl items-center jus py-3 text-black flex  ">
+          <button className="border-primary border-1 border space-x-2 md:w-[37%] w-[55%] pl-2 text-sm rounded-xl items-center jus py-3 text-black flex  ">
            <div className="flex items-center space-x-2 "  >
            <img className="w-4 " alt='' src="/images/apple.png" />
            <img className="w-4 " alt='' src="/images/store.png" />
