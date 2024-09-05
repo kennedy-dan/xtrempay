@@ -57,7 +57,7 @@ const Navbar = () => {
         </div>
 
         <div className="md:hidden block" onClick={showDrawerAdv}>
-          <IoIosMenu />
+          <IoIosMenu size={26} />
         </div>
       </div>
       <Drawer
