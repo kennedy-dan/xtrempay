@@ -33,17 +33,7 @@ const ScrollSection = () => {
             You have visibility of your savings balance, transactions and prizes
             in one place
           </p>
-          <p className="md:text-lg text-[13px] mt-10 font-[500]">
-          Tracking your Saving Progress
-          </p>
-          <p className="md:text-[14px] text-[12px] mt-1 font-[400]00]">
-          You have visibility of your savings balance, transactions and prizes in one place
-          </p>{" "}
-          <p className="md:text-lg text-[13px] mt-10 font-[500]">Tracking your Saving Progress</p>
-          <p className="md:text-[14px] text-[12px] mt-1 font-[400]">
-            You have visibility of your savings balance, transactions and prizes
-            in one place
-          </p>
+         
           {/* Repeat the content as needed */}
         </div>
         <div className="md:h-[300vh] h-[50vh] "></div>
