@@ -23,7 +23,7 @@ const Use = () => {
 
             {/* <p className="font-semibold text-[20px] py-4">Secure Gateway</p> */}
 
-            <p className="text-[13px] md:text-[18px] text-gray-600 mt-3">
+            <p className="text-[13px] md:text-[18px] text-justify text-gray-600 mt-3">
               Create an exciting Saving plan for 3-12 month and get a chance to
               win millions, Instead of receiving higher interest, a portion of
               the interest that would have been earned is pooled together to
@@ -45,7 +45,7 @@ const Use = () => {
 
             {/* <p className="font-semibold text-[20px] py-4">Secure Gateway</p> */}
 
-            <p className=" text-[13px] md:text-[18px] text-gray-600">
+            <p className=" text-[13px] md:text-[18px] text-justify text-gray-600">
               Raffle save accounts - a creative way to promote savings, blending
               traditional banking with a bit of fun and excitement. Create a
               weekly, monthly and quarterly saving plan, And get a chance{" "}
@@ -75,7 +75,7 @@ const Use = () => {
 
             {/* <p className="font-semibold text-[20px] py-4">Secure Gateway</p> */}
 
-            <p className="text-[13px] md:text-[18px] text-gray-600 mt-3">
+            <p className="text-[13px] md:text-[18px] text-gray-600 mt-3 text-justify">
               Passabi brings modern innovation to traditional thrift groups,
               empowering communities to save more, earn interest, and access
               affordable credit. Secure your future with Passabi—where tradition

@@ -7,7 +7,7 @@ const Contactus = () => {
 
   return (
     <Layout>
-      <section className="font-Poppins">
+      <section className="font-Poppins text-justify">
         <p className="text-[#FF6666] text-center md:text-[24px] text-[16] font-[600] pt-40">
           Contact us
         </p>

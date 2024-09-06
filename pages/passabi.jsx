@@ -47,25 +47,25 @@ const Passabi = () => {
     <Layout>
       <section className="font-Poppins ">
         <div className="md:flex justify-between items-center pt-40 md:px-24 px-5">
-          <div>
+          <div className='md:w-1/2' >
             <p className="text-[#FF6666] font-bold text-[34px] md:text-[51px]">
               Passabi
             </p>
 
-            <p className=" font-semibold text-[27px] md:text-[40px]">
+            <p className=" font-semibold text-[18px] md:text-[40px]">
               Revolutionizing Thrift{" "}
             </p>
-            <p className=" font-[500] text-primary  text-[27px] md:text-[40px]">
+            <p className=" font-[500] text-primary  text-[18px] md:text-[40px]">
               For a brighter tomorrow
             </p>
-            <p className="font-[400] text-[13px] pt-5">
-              Passabi brings modern innovation to traditional thrift groups,<br />
-              empowering communities to save more, earn interest, and <br /> access
-              affordable credit. Secure your future with Passabi—<br />where tradition
+            <p className="font-[400] text-[13px] pt-5 text-justify md:w-[70%]">
+              Passabi brings modern innovation to traditional thrift groups,
+              empowering communities to save more, earn interest, and  access
+              affordable credit. Secure your future with Passabi where tradition
               meets technology
             </p>
             <div className='mt-5' >
-          <button className="border-primary border-1 border space-x-2 md:w-[37%] w-[45%] pl-2 text-sm rounded-xl items-center jus py-3 text-black flex  ">
+          <button className="border-primary border-1 border space-x-2 md:w-[37%] w-[55%] pl-2 text-sm rounded-xl items-center jus py-3 text-black flex  ">
            <div className="flex items-center space-x-2 "  >
            <img className="w-4 " alt='' src="/images/apple.png" />
            <img className="w-4 " alt='' src="/images/store.png" />
@@ -75,7 +75,7 @@ const Passabi = () => {
           </button>
         </div>
           </div>
-          <div className="md:mt-0 mt-5">
+          <div className="md:mt-0 mt-5 md:w-1/2">
             <img src="/images/passabihom.png" className="w-[500px]" alt="" />
           </div>
         </div>
@@ -90,7 +90,7 @@ const Passabi = () => {
                 GET TO KNOW ABOUT
                 <br className='hidden md:block' /> PASSABI{" "}
               </p>
-              <p className="mt-2 md:text-[18px] text-[14px] text-gray-500 font-[400] md:w-[75%] ">
+              <p className="mt-2 md:text-[18px] text-[14px] text-gray-500 font-[400] text-justify md:w-[75%] ">
               Our platform addresses these concerns by securely storing funds through licensed financial partnerships, ensuring contributors savings earn interest. 
               </p>
             </div>
@@ -109,7 +109,7 @@ const Passabi = () => {
                   No interest Loan
                 </p>
 
-                <p className="text-[13px] text-gray-500">
+                <p className="text-[13px] text-gray-500 text-justify">
                   A standout feature of Passabi is its provision of no-interest
                   loans to its members. This unique offering enables individuals
                   to access funds without the burden of accruing interest,
@@ -123,7 +123,7 @@ const Passabi = () => {
                   Customize Contribution Plan{" "}
                 </p>
 
-                <p className="text-[13px] text-gray-500">
+                <p className="text-[13px] text-gray-500 text-justify">
                   Understanding that financial capabilities and needs vary from
                   person to person, Passabi allows its users to tailor their
                   contribution plans. This flexibility ensures that members can
@@ -139,7 +139,7 @@ const Passabi = () => {
                   Saving and loan Management{" "}
                 </p>
 
-                <p className="text-[13px] text-gray-500">
+                <p className="text-[13px] text-gray-500 text-justify">
                   Passabi integrates sophisticated tools for managing savings
                   and loans, ensuring that members have a clear overview of
                   their finances. This feature aids in fostering financial
@@ -154,7 +154,7 @@ const Passabi = () => {
                   Instant SMS & Email Notification{" "}
                 </p>
 
-                <p className="text-[13px] text-gray-500">
+                <p className="text-[13px] text-gray-500 text-justify">
                   In today’s fast-paced world, immediate access to information
                   is crucial. Passabi caters to this need through instant SMS
                   and email notifications, keeping members up-to-date on their
@@ -186,7 +186,7 @@ const Passabi = () => {
                     </div>
                     <div className="w-[90%]">
                       <p className="text-[16px] font-bold">{info?.name}</p>
-                      <p className="text-[13px]">{info?.msg}</p>
+                      <p className="text-[13px] text-justify">{info?.msg}</p>
                     </div>
                   </div>
                 </div>

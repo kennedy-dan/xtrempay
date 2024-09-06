@@ -51,7 +51,7 @@ const Service = () => {
           <p className="text-white font-[500] text-[18px] text] py-8 ">
           Made for Small Business Owners          </p>
 
-          <p>
+          <p className='text-justify' >
           Passabi offers seamless group savings and provide access to no interest loans for individual members that have come together to solve their money challenges. Digitalize rotating savings platform that is seamlessly integrates with commercial bank and fin-tech companies to offers access to secure and easy to use financial services
           </p>
 

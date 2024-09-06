@@ -9,17 +9,16 @@ const Footer = () => {
         <div className="">
           <img src="/images/logofooter.png" alt="" />
 
-          <p className="text-[13px] font-[400] ">
+          <p className="text-[13px] font-[400] text-justify ">
             Xtrempay is designed to address specific{" "}
-            <br className="md:block hidden" /> challenges in the digital and
+             challenges in the digital and
             financial space,
-            <br className="md:block hidden" /> supporting the informal financial
+             supporting the informal financial
             sector and
-            <br />
             driving financial inclusion, In addition, we offer
-            <br className="md:block hidden" /> Passabi and Moola, which provides
+             Passabi and Moola, which provides
             range of
-            <br className="md:block hidden" /> financial needs.
+             financial needs.
           </p>
         </div>
 

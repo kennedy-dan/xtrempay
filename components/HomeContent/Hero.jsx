@@ -13,9 +13,9 @@ const Hero = () => {
               <span className="text-primary">pay</span>
             </p>
 
-            <p className="md:text-[17px] text-[13px] font-[400] leading-[27px] md:mt-4 mt-2">
-              Empower yourself with lightning fast transactions. <br className="md:block hidden" />  Whether
-              its transferring funds, paying bills. Explore the <br className="md:block hidden" />  uncommon
+            <p className="md:text-[17px] text-[13px] font-[400] md:w-[80%] text-justify leading-[27px] md:mt-4 mt-2">
+              Empower yourself with lightning fast transactions.  Whether
+              its transferring funds, paying bills. Explore the  uncommon
               possibilities of digital banking.
             </p>
 

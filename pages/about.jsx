@@ -5,7 +5,7 @@ import React from "react";
 const about = () => {
   return (
     <Layout>
-      <section className="font-Poppins">
+      <section className="font-Poppins text-justify">
         <p className="text-[#FF6666] text-center md:text-[24px] text-[16] font-[600] pt-28 md:pt-40">
           About us
         </p>

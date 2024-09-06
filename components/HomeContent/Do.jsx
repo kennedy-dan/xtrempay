@@ -62,7 +62,7 @@ const Do = () => {
               <div
                 key={index}
                 style={{ background: items?.color, color: items?.text }}
-                className={`bg-[${items?.color}] px-5 py-5 md:w-[60%] rounded-lg `}
+                className={`bg-[${items?.color}] md:px-5 px-2 py-5 w-[80%]  md:w-[60%] rounded-lg `}
               >
                 <div className="py-7 flex items-center">
                   <img src={items?.img} alt="" className="w-9 h-9" />
@@ -75,7 +75,7 @@ const Do = () => {
                   <p className="font-bold ">{items?.name}</p>
                 </div>
 
-                <p className={`font-[400] text-sm md:text-[16px] ${index === 0 ? 'text-white' : 'text-gray-600'}  my-2`}>{items?.desc}</p>
+                <p className={`font-[400] text-[11px] text-justify  md:text-[16px] ${index === 0 ? 'text-white' : 'text-gray-600'}  my-2`}>{items?.desc}</p>
               </div>
             ))}
           </div>
