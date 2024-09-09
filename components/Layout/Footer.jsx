@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="">
           <img src="/images/logofooter.png" alt="" />
 
-          <p className="text-[13px] font-[400] text-justify ">
+          <p className="text-[13px] md:w-[400px] font-[400] text-justify ">
             Xtrempay is designed to address specific{" "}
              challenges in the digital and
             financial space,
