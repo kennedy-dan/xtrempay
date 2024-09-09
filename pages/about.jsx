@@ -6,10 +6,10 @@ const about = () => {
   return (
     <Layout>
       <section className="font-Poppins text-justify">
-        <p className="text-[#FF6666] text-center md:text-[24px] text-[16] font-[600] pt-28 md:pt-40">
+        <p className="text-[#FF6666] text-center text-[28px] md:text-[30px] font-[600] pt-28 md:pt-40">
           About us
         </p>
-        <p className="text-center font-[600] text-[17] md:text-[34px] ">
+        <p className="text-center font-[600] text-[17px] md:text-[34px] ">
           Empowering Financial Freedom for All
         </p>
         <div className="mt-16">
@@ -18,7 +18,7 @@ const about = () => {
 
         <div className="mt-20 md:px-20 px-5 md:justify-between md:space-x-10 md:flex">
           <div className="md:w-1/2">
-            <p className=" md:text-[22px] font-[600] text-[16px]">
+            <p className=" text-[18px] md:text-[30px] font-[600] ">
               What We Stand For
             </p>
 

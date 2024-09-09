@@ -35,14 +35,14 @@ const Moola = () => {
       <section className="font-Poppins pt-40 md:pt-24 ">
         <div className="md:flex justify-between items-center md:px-20 px-5">
           <div className="md:w-1/2">
-            <p className=" font-bold text-[34px] md:text-[51px] text-[#FF6666]">
+            <p className=" font-bold text-[28px] md:text-[30px] text-[#FF6666]">
               Moola
             </p>
 
             <p className=" font-bold text-[18px] md:text-[40px] text-justify">
               A new way of saving{" "}
             </p>
-            <p className=" font-[500] text-primary text-[18px] text-justify md:text-[40px]">
+            <p className=" font-[500] text-primary text-[18px] text-justify md:text-[30px]">
               Save and win N1m Weekly
             </p>
             <p className="font-[400] text-[13px] pt-5 text-justify md:w-[70%]">
@@ -74,18 +74,18 @@ const Moola = () => {
         </div>
         <div className="md:flex justify-between md:px-20 pt-10 px-5 md:space-x-16 ">
           <div className="md:w-1/2">
-            <img src="/images/serve.png" alt="" />
+            <img src="/images/moolaimage.png" alt="" />
           </div>
 
           <div className="md:w-1/2 md:mt-0 mt-16">
             <div>
-              <p className="font-[500] text-[18px] md:text-[32px]">
+              <p className="font-[500] text-[18px] md:text-[28px]">
                 Fixed Savings
               </p>
 
               {/* <p className="font-semibold text-[20px] py-4">Secure Gateway</p> */}
 
-              <p className="text-[13px] md:text-[18px] text-gray-600 mt-3 text-justify">
+              <p className="text-[13px] md:text-[15px] text-gray-600 mt-3 text-justify">
                 Create an exciting Saving plan for 3-12 month and get a chance
                 to win millions, Instead of receiving higher interest, a portion
                 of the interest that would have been earned is pooled together
@@ -101,13 +101,13 @@ const Moola = () => {
               </p>
             </div>
             <div>
-              <p className="font-[500] text-[13px] md:text-[32px] mt-10">
+              <p className="font-[500] text-[13px] md:text-[28px] mt-10">
                 Raffle Savings
               </p>
 
               {/* <p className="font-semibold text-[20px] py-4">Secure Gateway</p> */}
 
-              <p className=" text-[13px] md:text-[18px] text-gray-600 text-justify">
+              <p className=" text-[13px] md:text-[15px] text-gray-600 text-justify">
                 Raffle save accounts - a creative way to promote savings,
                 blending traditional banking with a bit of fun and excitement.
                 Create a weekly, monthly and quarterly saving plan, And get a
@@ -138,7 +138,7 @@ const Moola = () => {
                   </div>
                   <div className="w-[90%]">
                     <p className="text-[16px] font-bold">{info?.name}</p>
-                    <p className="text-[13px] nd:text-left text-justify ">{info?.msg}</p>
+                    <p className="text-[14px] md:text-left text-justify ">{info?.msg}</p>
                   </div>
                 </div>
               </div>

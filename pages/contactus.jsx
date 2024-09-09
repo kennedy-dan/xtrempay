@@ -8,7 +8,7 @@ const Contactus = () => {
   return (
     <Layout>
       <section className="font-Poppins text-justify">
-        <p className="text-[#FF6666] text-center md:text-[24px] text-[16] font-[600] pt-40">
+        <p className="text-[#FF6666] text-center text-[28px] md:text-[30px] font-[600] pt-40">
           Contact us
         </p>
         <p className="text-center font-[600] py-3 text-[17] md:text-[34px] ">

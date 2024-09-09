@@ -6,17 +6,17 @@ const Reviews = () => {
     {
       img: "/images/slide1.png",
       name: "Tobi",
-      msg: "“From the moment I downloaded XtremPay, I was impressed by its user-friendly interface”.",
+      msg: "From the moment I downloaded XtremPay, I was impressed by its user-friendly interface.",
     },
     {
       img: "/images/slide2.png",
       name: "Omobolanle",
-      msg: "“From the moment I downloaded XtremPay, I was impressed by its user-friendly interface”.",
+      msg: "With Moola, I can now access loans at lower rates and support my family without stress.",
     },
     {
       img: "/images/slide3.png",
       name: "Gbenga",
-      msg: "“From the moment I downloaded XtremPay, I was impressed by its user-friendly interface”.",
+      msg: "Xtrempay helped me grow my business by offering affordable credit and easy savings solutions.",
     },
   ];
 

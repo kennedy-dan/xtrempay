@@ -13,7 +13,7 @@ const Hero = () => {
               <span className="text-primary">pay</span>
             </p>
 
-            <p className="md:text-[17px] text-[13px] font-[400] md:w-[80%] text-justify leading-[27px] md:mt-4 mt-2">
+            <p className="md:text-[16px] text-[13px] font-[400] md:w-[80%] text-justify leading-[27px] md:mt-4 mt-2">
               Empower yourself with lightning fast transactions.  Whether
               its transferring funds, paying bills. Explore the  uncommon
               possibilities of digital banking.
@@ -35,7 +35,7 @@ const Hero = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
-              <img src="/images/iphonehome.png" alt="" />
+              <img src="/images/herohome.png" alt="" />
             </motion.div>
             <div className="absolute top-[60%] right-6 md:right-24">
               <motion.div

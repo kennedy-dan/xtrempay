@@ -91,7 +91,7 @@ const Use = () => {
           </div>
         </div>
         <div className="md:w-1/2 md:mt-0 mt-8 ">
-          <img src="/images/serve.png" alt="" />
+          <img src="/images/passabiimage.png" alt="" />
         </div>
       </div>
     </section>

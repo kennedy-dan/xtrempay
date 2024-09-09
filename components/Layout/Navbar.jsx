@@ -28,19 +28,19 @@ const Navbar = () => {
 
         <div className="hidden space-x-6 md:flex">
           <Link href="/moola">
-            <p className={`mt-6 ${router.pathname === '/moola' ? 'text-primary' : ''}`}>Moola</p>
+            <p className={`mt-6 hover:text-primary ${router.pathname === '/moola' ? 'text-primary' : ''}`}>Moola</p>
           </Link>
 
           <Link href="/passabi">
-            <p className={`mt-6 ${router.pathname === '/passabi' ? 'text-primary' : ''}`}>Passabi</p>
+            <p className={`mt-6 hover:text-primary ${router.pathname === '/passabi' ? 'text-primary' : ''}`}>Passabi</p>
           </Link>
 
           <Link href="/about">
-            <p className={`mt-6 ${router.pathname === '/about' ? 'text-primary' : ''}`}>About Us</p>
+            <p className={`mt-6 hover:text-primary ${router.pathname === '/about' ? 'text-primary' : ''}`}>About Us</p>
           </Link>
 
           <Link href="/contactus">
-            <p className={`mt-6 ${router.pathname === '/contactus' ? 'text-primary' : ''}`}>Contact</p>
+            <p className={`mt-6 hover:text-primary ${router.pathname === '/contactus' ? 'text-primary' : ''}`}>Contact</p>
           </Link>
         </div>
 

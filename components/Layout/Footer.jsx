@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="bg-[#c7c1c1]  h-[1px] w-full "></div>
       <div className="md:flex justify-between md:py-16 py-9 md:px-20 px-5">
         <div className="">
-          <img src="/images/logofooter.png" alt="" />
+          <img src="/images/logo1.png" alt="" />
 
           <p className="text-[13px] md:w-[400px] font-[400] text-justify ">
             Xtrempay is designed to address specific{" "}
@@ -26,22 +26,22 @@ const Footer = () => {
           <p className="font-semibold">Page Links</p>
           <div className="space-y-1">
             <Link href="/moola">
-              <p className="mt-4">Moola</p>
+              <p className="mt-4 hover:text-primary">Moola</p>
             </Link>
             <Link href="/passabi">
-              <p>Passabi</p>
+              <p className='hover:text-primary' >Passabi</p>
             </Link>
             <Link href="/about">
-              <p>About Us</p>
+              <p className='hover:text-primary'>About Us</p>
             </Link>
             <Link href="/contactus">
-              <p>Contact</p>
+              <p className='hover:text-primary'>Contact</p>
             </Link>
           </div>
         </div>
 
         <div className="md:mt-0 mt-9">
-          <p className="text-primary font-[600]">Join our newsletter</p>
+          <p className="text-primary font-[600] hover:text-primary">Join our newsletter</p>
           <p className="font-[400]">
             We’ll send you a nice letter once per week. No spam.
           </p>

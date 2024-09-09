@@ -48,21 +48,21 @@ const Passabi = () => {
       <section className="font-Poppins ">
         <div className="md:flex justify-between items-center pt-40 md:px-24 px-5">
           <div className='md:w-1/2' >
-            <p className="text-[#FF6666] font-bold text-[34px] md:text-[51px]">
+            <p className="text-[#FF6666] font-bold text-[28px] md:text-[30px]">
               Passabi
             </p>
 
             <p className=" font-semibold text-[18px] md:text-[40px]">
               Revolutionizing Thrift{" "}
             </p>
-            <p className=" font-[500] text-primary  text-[18px] md:text-[40px]">
-              For a brighter tomorrow
+            <p className=" font-[500] text-primary  text-[18px] md:text-[30px]">
+              For a brighter tomorrow.
             </p>
             <p className="font-[400] text-[13px] pt-5 text-justify md:w-[70%]">
               Passabi brings modern innovation to traditional thrift groups,
               empowering communities to save more, earn interest, and  access
               affordable credit. Secure your future with Passabi where tradition
-              meets technology
+              meets technology.
             </p>
             <div className='mt-5' >
           <button className="border-primary border-1 border space-x-2 md:w-[37%] w-[55%] pl-2 text-sm rounded-xl items-center jus py-3 text-black flex  ">
@@ -90,7 +90,7 @@ const Passabi = () => {
                 GET TO KNOW ABOUT
                 <br className='hidden md:block' /> PASSABI{" "}
               </p>
-              <p className="mt-2 md:text-[18px] text-[14px] text-gray-500 font-[400] text-justify md:w-[75%] ">
+              <p className="mt-2 md:text-[14px] text-[13px] text-gray-500 font-[400] text-justify md:w-[75%] ">
               Our platform addresses these concerns by securely storing funds through licensed financial partnerships, ensuring contributors savings earn interest. 
               </p>
             </div>
