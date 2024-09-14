@@ -40,7 +40,7 @@ const Contactus = () => {
           Our friendly team is always here to chat.
         </p>
 
-        <div className="grid md:grid-cols-3 grid-cols-2 gap-3 md:gap-7 mt-10 md:mt-20 px-5 md:px-20">
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-6 md:gap-7 mt-10 md:mt-20 px-5 md:px-20">
           {cont?.map(items => <div className='bg-[#F9F5FF] px-4 py-6' >
             <div>
               <img src={items?.img} />
