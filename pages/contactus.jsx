@@ -6,27 +6,24 @@ const Contactus = () => {
   const [xpay, setXpay] = useState("xpay");
   const cont = [
     {
-      title: 'Chat to sales',
-      desc:'Speak to our friendly team.',
-      cont: 'xforce@xtrempay.com',
-      img: '/images/mail.png'
-
+      title: "Chat to sales",
+      desc: "Speak to our friendly team.",
+      cont: "xforce@xtrempay.com",
+      img: "/images/mail.png",
     },
     {
-      title: 'Chat to support',
-      desc:'We’re here to help.',
-      cont: 'support@xtrempay.com',
-      img: '/images/msg.png'
-
+      title: "Chat to support",
+      desc: "We’re here to help.",
+      cont: "support@xtrempay.com",
+      img: "/images/msg.png",
     },
     {
-      title: 'Call us',
-      desc:'Mon-Fri from 8am to 5pm.',
-      cont: '07032932410',
-      img: '/images/phon.png'
-
-    }
-  ]
+      title: "Call us",
+      desc: "Mon-Fri from 8am to 5pm.",
+      cont: "07032932410",
+      img: "/images/phon.png",
+    },
+  ];
   return (
     <Layout>
       <section className="font-Poppins text-justify">
@@ -41,23 +38,32 @@ const Contactus = () => {
         </p>
 
         <div className="grid md:grid-cols-3 grid-cols-1 gap-6 md:gap-7 mt-10 md:mt-20 px-5 md:px-20">
-          {cont?.map(items => <div className='bg-[#F9F5FF] px-4 py-6' >
-            <div>
-              <img src={items?.img} />
+          {cont?.map((items, index) => (
+            <div key={index} className="bg-[#F9F5FF] px-4 py-6">
+              <div>
+                <img src={items?.img} />
 
-              <p className='font-bold text-[14px] md:text-[20px] pt-8' >{items.title}</p>
-              <p className='text-gray-500 text-[13px] py-3 md:text-[15px]' >{items.desc}</p>
-              <p className='text-primary text-[14px] md:text-[18px] font-[500] ' >{items.cont}</p>
+                <p className="font-bold text-[14px] md:text-[20px] pt-8">
+                  {items.title}
+                </p>
+                <p className="text-gray-500 text-[13px] py-3 md:text-[15px]">
+                  {items.desc}
+                </p>
+                <p className="text-primary text-[14px] md:text-[18px] font-[500] ">
+                  {items.cont}
+                </p>
+              </div>
             </div>
-          </div>)}
-        
+          ))}
         </div>
 
         <div></div>
         <div className="md:flex md:px-20 px-5 md:pt-16 mt-5 mb-28">
           <div className="md:w-1/2 font-montserrat ">
-            <p className="font-semibold text-[18px] md:text-[34px] ">Send us a message</p>
-            <p className='' >Our friendly team would love to hear from you.</p>
+            <p className="font-semibold text-[18px] md:text-[34px] ">
+              Send us a message
+            </p>
+            <p className="">Our friendly team would love to hear from you.</p>
             <div className="md:flex justify-between md:w-[90%] mt-10 md:mt-16">
               <div className="">
                 <p className="text-[]">Full Name</p>
