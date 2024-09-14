@@ -1,6 +1,6 @@
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
-
+import Link from 'next/link'
 const Use = () => {
   return (
     <section className="md:px-20 px-5 pt-28 font-Poppins">
@@ -16,6 +16,9 @@ const Use = () => {
         </div>
 
         <div className="md:w-1/2">
+        <p className="text-[#FF6666] mb-4 font-semibold text-[20px] md:text-[43px]">
+              Moola
+            </p>
           <div>
             <p className="font-[500] text-[17px] md:text-[32px]">
               Fixed Savings
@@ -55,10 +58,13 @@ const Use = () => {
           </div>
 
           <div>
+          <Link href='/moola' >
+
             <button className="px-5 py-3 mt-10 uppercase text-black hover:text-white flex rounded-md space-x-2 text-[18px] items-center justify-center border border-1 hover:bg-primary border-primary">
               <p>see more</p>
               <IoIosArrowForward className=' ' />{" "}
             </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -84,14 +90,16 @@ const Use = () => {
           </div>
 
           <div>
+            <Link href='/passabi' >
           <button className="px-5 py-3 mt-10 uppercase text-black hover:text-white flex rounded-md space-x-2 text-[18px] items-center justify-center border border-1 hover:bg-primary border-primary">
               <p>see more</p>
               <IoIosArrowForward className=' ' />{" "}
             </button>
+            </Link>
           </div>
         </div>
         <div className="md:w-1/2 md:mt-0 mt-8 ">
-          <img src="/images/passabiimage.png" alt="" />
+          <img src="/images/passbi.png" alt="" />
         </div>
       </div>
     </section>

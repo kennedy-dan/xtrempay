@@ -33,6 +33,15 @@ const ScrollSection = () => {
             You have visibility of your savings balance, transactions and prizes
             in one place
           </p>
+          <p className="md:text-lg text-[13px] font-[500] mt-3">Tracking your Saving Progress</p>
+          <p className="md:text-[14px] w-full text-[12px] text-justify  font-[400] mt-1 ">
+            You have visibility of your savings balance, transactions and prizes
+            in one place
+          </p> <p className="md:text-lg text-[13px] font-[500] mt-3">Tracking your Saving Progress</p>
+          <p className="md:text-[14px] w-full text-[12px] text-justify  font-[400] mt-1 ">
+            You have visibility of your savings balance, transactions and prizes
+            in one place
+          </p>
          
           {/* Repeat the content as needed */}
         </div>
@@ -44,7 +53,7 @@ const ScrollSection = () => {
             <img src="/images/quick1.png" alt="Phone 1" className="" />
 
             <p className="text-center md:text-[14px] text-[12px] mt-1">
-              Xtrempay for Business & Personal Account
+              {/* Xtrempay for Business & Personal Account */}
             </p>
           </div>
         </div>
@@ -52,14 +61,14 @@ const ScrollSection = () => {
           <div>
             <img src="/images/quick2.png" alt="Phone 2" className="" />
 
-            <p className="text-center mt-1 md:text-[14px] text-[12px]">Moola</p>
+            {/* <p className="text-center mt-1 md:text-[14px] text-[12px]">Moola</p> */}
           </div>
         </div>
         <div className="flex md:flex-col items-center">
           <div>
           <img src="/images/quick3.png" alt="Phone 2" className="" />
 
-<p className="text-center mt-1 md:text-[14px] text-[12px]">Fixed Savings balance</p>
+{/* <p className="text-center mt-1 md:text-[14px] text-[12px]">Fixed Savings balance</p> */}
           </div>
   
         </div>

@@ -60,15 +60,21 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex  mt-9 items-center space-x-4">
-            <div>
+            {/* <div>
               <img src="/images/fb.png" alt="" />
-            </div>
+            </div> */}
             <div>
+           <Link target='_blank' href='https://www.linkedin.com/company/xtrempay/' >
               <img src="/images/in.png" alt="" />
+              </Link> 
+           
             </div>
             <div>
+              <Link target='_blank' href='https://www.instagram.com/xtrempayafrica?igsh=MXY1ZDF0bmV5aHc4Yw%3D%3D&utm_source=qr' >
               <img src="/images/gram.png" alt="" />
+              </Link>
             </div>
+
           </div>
           {/* <img className="mt-4"  alt='' src="/images/loc.png" /> */}
         </div>

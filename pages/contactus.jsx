@@ -4,7 +4,29 @@ import React, { useState } from "react";
 
 const Contactus = () => {
   const [xpay, setXpay] = useState("xpay");
+  const cont = [
+    {
+      title: 'Chat to sales',
+      desc:'Speak to our friendly team.',
+      cont: 'xforce@xtrempay.com',
+      img: '/images/mail.png'
 
+    },
+    {
+      title: 'Chat to support',
+      desc:'We’re here to help.',
+      cont: 'support@xtrempay.com',
+      img: '/images/msg.png'
+
+    },
+    {
+      title: 'Call us',
+      desc:'Mon-Fri from 8am to 5pm.',
+      cont: '07032932410',
+      img: '/images/phon.png'
+
+    }
+  ]
   return (
     <Layout>
       <section className="font-Poppins text-justify">
@@ -18,19 +40,17 @@ const Contactus = () => {
           Our friendly team is always here to chat.
         </p>
 
-        <div className="grid md:grid-cols-4 grid-cols-2 gap-3 md:gap-7 mt-10 md:mt-20 px-5 md:px-20">
-          <di>
-            <img src="/images/con1.png" />
-          </di>
-          <di>
-            <img src="/images/con2.png" />
-          </di>
-          <di>
-            <img src="/images/con3.png" />
-          </di>
-          <di>
-            <img src="/images/con4.png" />
-          </di>
+        <div className="grid md:grid-cols-3 grid-cols-2 gap-3 md:gap-7 mt-10 md:mt-20 px-5 md:px-20">
+          {cont?.map(items => <div className='bg-[#F9F5FF] px-4 py-6' >
+            <div>
+              <img src={items?.img} />
+
+              <p className='font-bold text-[14px] md:text-[20px] pt-8' >{items.title}</p>
+              <p className='text-gray-500 text-[13px] py-3 md:text-[15px]' >{items.desc}</p>
+              <p className='text-primary text-[14px] md:text-[18px] font-[500] ' >{items.cont}</p>
+            </div>
+          </div>)}
+        
         </div>
 
         <div></div>

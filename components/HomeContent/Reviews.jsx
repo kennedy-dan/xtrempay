@@ -93,7 +93,7 @@ const Reviews = () => {
         <div>
           <PrimeCarousel
             value={reviewData}
-            numVisible={1}
+            numVisible={3}
             numScroll={1}
             responsiveOptions={responsiveOptions}
             itemTemplate={productTemplateOthers}

@@ -6,12 +6,16 @@ const Do = () => {
 
   const content = [
     {
-      img: "/images/transfer.png",
+      img: "/images/doo.svg",
       name: "Transfer",
       desc: "Need to send money to a friend, family member, or colleague? XremPays money transfer feature is your go-to solution.",
-      color: "#FF9227",
-      text: "white",
-      border: "white",
+      color: "white",
+      // text: "white",
+      border: "#FF9227",
+      border1: "white",
+      imghover: '/images/do.svg'
+
+
     },
     {
       img: "/images/withdrawicon.png",
@@ -79,7 +83,7 @@ const Do = () => {
                   className={`md:px-5 px-2 py-5 w-[80%] cursor-pointer md:w-[60%] rounded-lg 
   ${items?.color === "#FF9227" ? "bg-[#FF9227]" : "bg-white"} 
   hover:bg-primary text-${items?.text} ${
-                    index === 0 ? "text-white" : "text-gray-600"
+                    index === 0 ? "text-gray-600" : "text-gray-600"
                   } hover:text-white`}
                   onMouseEnter={() => setHoveredIndex(index)}
                   onMouseLeave={() => setHoveredIndex(null)}
