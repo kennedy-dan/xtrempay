@@ -48,7 +48,7 @@ const Moola = () => {
             <p className="font-[400] text-[13px] pt-5 text-justify md:w-[70%]">
               Moola is a financial app that offers prize linked savings account
               as an alternative to traditional interest based savings. Moola
-              offers people an exceptional and exciting chance of wining a cash
+              offers people an exceptional and exciting chance of winning a cash
               prize in return for saving money into Moola account
             </p>
             <div className="mt-5">
@@ -128,7 +128,7 @@ const Moola = () => {
 
         <div className="md:flex items-center justify-between px-5 md:px-20 bg-[#F1F6F9] mt-10 pt-1 md:pt-28">
           <div className=" md:mt-0 mt-16">
-            <p className="font-[500] text-[21px]">Moola Features</p>
+            <p className="font-bold text-[20px] md:text-[30px]">Moola Features</p>
             {seData?.map((info, index) => (
               <div key={index} className="">
                 <div className="flex mt-12 space-between items-center">

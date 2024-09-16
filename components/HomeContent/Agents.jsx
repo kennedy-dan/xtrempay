@@ -6,8 +6,7 @@ const Agents = () => {
       <div className="md:w-1/2" >
         <p className='md:text-[32px] text-[18px] font-[500]' >Become an <span className='text-primary'>Xtrempay</span>  Agent</p>
         <p className="py-7 md:text-[17px] text-[13px]" >
-          Enjoy 0% charges on your transactions and also make free deposite and
-          withdrawals
+        Enjoy lower transactions fee on both deposits and withdrawal
         </p>
 
         <div>

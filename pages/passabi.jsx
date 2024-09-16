@@ -175,7 +175,7 @@ const Passabi = () => {
               />
             </div>
             <div className="md:w-1/2">
-              <p className="font-bold text-[30px] mb-6 ">Passabi Features</p>
+              <p className="font-bold text-[20px] md:text-[30px] mb-6 ">Passabi Features</p>
 
               {seData?.map((info, index) => (
                 <div key={index} className="">

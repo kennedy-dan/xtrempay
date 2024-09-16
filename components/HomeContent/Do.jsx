@@ -8,7 +8,7 @@ const Do = () => {
     {
       img: "/images/doo.svg",
       name: "Transfer",
-      desc: "Need to send money to a friend, family member, or colleague? XremPays money transfer feature is your go-to solution.",
+      desc: "Need to send money to a friend, family member, or colleague? Xtrempay money transfer feature is your go-to solution.",
       color: "white",
       // text: "white",
       border: "#FF9227",

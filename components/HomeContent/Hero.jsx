@@ -13,20 +13,19 @@ const Hero = () => {
               <span className="text-primary">pay</span>
             </p>
 
-            <p className="md:text-[16px] text-[13px] font-[400] md:w-[80%] text-justify leading-[27px] md:mt-4 mt-2">
-              Empower yourself with lightning fast transactions.  Whether
-              its transferring funds, paying bills. Explore the  uncommon
-              possibilities of digital banking.
+            <p className="md:text-[14px] text-[13px] font-[400] md:w-[80%] text-justify leading-[27px] md:mt-4 mt-2">
+              Explore the uncommon possibilities of digital banking ! Empower
+              yourself with lightning fast transactions , whether its
+              transferring funds , paying bills and lot more 
             </p>
 
             <button className="bg-primary  space-x-2 mt-8  px-3 text-sm rounded-lg items-center jus py-4 text-white flex  ">
-           <div className="flex items-center space-x-2 "  >
-           <img className="w-4 " alt='' src="/images/apple.png" />
-           <img className="w-4 " alt='' src="/images/store.png" />
-
-           </div>
-            <span>DOWNLOAD APP</span>
-          </button>
+              <div className="flex items-center space-x-2 ">
+                <img className="w-4 " alt="" src="/images/apple.png" />
+                <img className="w-4 " alt="" src="/images/store.png" />
+              </div>
+              <span>DOWNLOAD APP</span>
+            </button>
           </div>
           <div className="relative md:w-[55%]">
             <motion.div
@@ -44,7 +43,11 @@ const Hero = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
               >
-                <img src="/images/happy.png" alt="" className='md:w-fit md:h-fit w-[200px] h-[76px] object-cover' />
+                <img
+                  src="/images/happy.png"
+                  alt=""
+                  className="md:w-fit md:h-fit w-[200px] h-[76px] object-cover"
+                />
               </motion.div>
             </div>
           </div>

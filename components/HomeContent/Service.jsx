@@ -30,7 +30,7 @@ const Service = () => {
           <p>
             Moola is a financial app that offers prize-linked savings account as
             an alternative to traditional interest based savings. Moola offers
-            people an exceptional and exciting chance of wining a cash prize in
+            people an exceptional and exciting chance of winning a cash prize in
             return for saving money into Moola account.
           </p>
 
