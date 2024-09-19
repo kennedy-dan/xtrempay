@@ -7,21 +7,21 @@ import styles from "./faqs.module.css";
 export default function FAQ() {
   let data = [
     {
-      title: "What is Xtrempay??",
+      title: "How are the winners chosen?",
       details:
-        "Xtrempay Xtrempay is designed to address specific challenges in the digital and financial space, supporting the informal financial sector and driving financial inclusion, In addition, we offer Passabi and Moola, which provides range of financial needs. ",
+        "All accounts are entered into a draw for cash prize.  Every account has an equal chance of winning and there are multiple chances to win each prize. The draw takes place every Monday.",
     },
 
     {
-      title: "What is Xtrempay??",
+      title: "Is there a minimum withdrawal term?",
       details:
-        "Xtrempay Xtrempay is designed to address specific challenges in the digital and financial space, supporting the informal financial sector and driving financial inclusion, In addition, we offer Passabi and Moola, which provides range of financial needs. ",
+        "Yes. The minimum deposit term is one week. After that period is over you can withdraw your funds at any time.",
     },
 
     {
-      title: "What is Xtrempay??",
+      title: "How soon am I eligible to win a prize?",
       details:
-        "Xtrempay Xtrempay is designed to address specific challenges in the digital and financial space, supporting the informal financial sector and driving financial inclusion, In addition, we offer Passabi and Moola, which provides range of financial needs. ",
+        "Immediately. When you make a deposit your new balance is immediately eligible for all prizes.",
     },
   ];
 
