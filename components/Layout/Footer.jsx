@@ -79,11 +79,21 @@ const Footer = () => {
           {/* <img className="mt-4"  alt='' src="/images/loc.png" /> */}
         </div>
       </div>
-
-      <div className="flex bg-black text-white text-[13px] py-3 space-x-1 mt-3  w-full justify-center">
+<div className="flex md:px-24 px-5 bg-black justify-between">
+<div className="flex text-white text-[13px] py-3 space-x-1 mt-3  ">
         <img src="/images/c.png" alt="" className="" />
         <p>2024 Xtrempay. All Rights Reserved.</p>
       </div>
+      <div className="flex space-x-4 text-white text-[13px] py-3 mt-3  ">
+        <Link href='/privacy-policy' >
+        Privacy Policy
+        </Link>
+        <Link href='/termsandcondition' >
+        Terms & Condition
+        </Link>
+      </div>
+</div>
+ 
     </div>
   );
 };
