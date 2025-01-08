@@ -601,7 +601,7 @@ const TermsAndConditions = () => {
             Intellectual Property
           </h2>
           <p className="text-gray-600 mb-4">
-            Xtrempay,&rdquo;s website, app, and all related logos, products, and
+            Xtrempay&rdquo;s website, app, and all related logos, products, and
             services are trademarks or registered trademarks of Xtrempay Africa,
             Village Assist, or their affiliates. You are prohibited from
             copying, imitating, or using these trademarks without prior written
