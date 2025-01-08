@@ -12,12 +12,12 @@ const PrivacyPolicy = () => {
         <div className="md:flex justify-between items-center gap-8 mb-6">
 <div className="flex-1">
 <p className="text-gray-700 mb-4">
-          At Xtrempay Nigeria ("we," "our," "us"), we prioritize the privacy of
-          our users and are committed to safeguarding personal data. Operated as
-          a product of Village Assist Nigeria Limited (registered with the
-          Corporate Affairs Commission under RC-1805683), Xtrempay adheres to
-          the highest standards of data protection.
-        </p>
+  At Xtrempay Nigeria (&ldquo;we,&rdquo; &ldquo;our,&rdquo; &ldquo;us&rdquo;), we prioritize the privacy of
+  our users and are committed to safeguarding personal data. Operated as
+  a product of Village Assist Nigeria Limited (registered with the
+  Corporate Affairs Commission under RC-1805683), Xtrempay adheres to
+  the highest standards of data protection.
+</p>
         <p className="text-gray-700 mb-6">
           This Privacy Policy outlines how we collect, use, and protect your
           personal data while highlighting your rights regarding your

@@ -50,11 +50,11 @@ const TermsAndConditions = () => {
             Interpretation
           </h2>
           <p className="text-gray-600">
-            For clarity, "You," "Your," or "Customer" refers to the individual
-            entering into a banking relationship with Xtrempay and agreeing to
-            these terms, while "We," "Us," or "Our" refers to Xtrempay or any
-            entity to which our rights may be assigned.
-          </p>
+  For clarity, &ldquo;You,&rdquo; &ldquo;Your,&rdquo; or &ldquo;Customer&rdquo; refers to the individual
+  entering into a banking relationship with Xtrempay and agreeing to
+  these terms, while &ldquo;We,&rdquo; &ldquo;Us,&rdquo; or &ldquo;Our&rdquo; refers to Xtrempay or any
+  entity to which our rights may be assigned.
+</p>
         </section>
 
         <section>
@@ -484,7 +484,7 @@ const TermsAndConditions = () => {
 
             <p>
               If a payment was executed correctly and within the required time
-              frame, and the payee's payment service provider received the
+              frame, and the payees payment service provider received the
               payment, we are not liable for the proper execution of the
               instruction. However, upon your request, we will take reasonable
               steps to trace any non-executed or improperly executed
@@ -601,7 +601,7 @@ const TermsAndConditions = () => {
             Intellectual Property
           </h2>
           <p className="text-gray-600 mb-4">
-            Xtrempay's website, app, and all related logos, products, and
+            Xtrempay,&rdquo;s website, app, and all related logos, products, and
             services are trademarks or registered trademarks of Xtrempay Africa,
             Village Assist, or their affiliates. You are prohibited from
             copying, imitating, or using these trademarks without prior written
