@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react";
 import Accordion from "./Accordion";
 import styles from "./faqs.module.css";
+import Link from "next/link";
 
 export default function FAQ() {
   let data = [
@@ -91,7 +92,10 @@ export default function FAQ() {
         <p className="text-center text-black mt-4 font-[500]" >Still have questions?</p>
         <p className="text-center text-gray-500 md:text-[16px] text-[13px] px-5 font-[400]">Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
         <div className="mt-4 justify-center flex " >
+          <Link href='/contactus' >
           <button className="bg-primary rounded-lg text-white px-4 py-3" >Get in touch</button>
+          
+          </Link>
         </div>
       </div>
 
