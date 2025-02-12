@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { FaTiktok } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -15,7 +16,7 @@ const Footer = () => {
             financial space,
              supporting the informal financial
             sector and
-            driving financial inclusion, In addition, we offer
+            driving financial inclusion in addition, we offer
              Passabi and Moola, which provides
             range of
              financial needs.
@@ -72,6 +73,11 @@ const Footer = () => {
             <div>
               <Link target='_blank' href='https://www.instagram.com/xtrempayafrica?igsh=MXY1ZDF0bmV5aHc4Yw%3D%3D&utm_source=qr' >
               <img src="/images/gram.png" alt="" />
+              </Link>
+            </div>
+            <div>
+              <Link target='_blank' href='https://www.tiktok.com/@xtrempay' >
+              <FaTiktok size={18}  />
               </Link>
             </div>
 

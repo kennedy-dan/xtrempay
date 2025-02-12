@@ -70,14 +70,14 @@ const about = () => {
           </div>
         <div className="md:flex mt-20 md:px-20 w-full mb-20  px-5 md:justify-center">
           <div className=" md:w-1/2 ">
-            <p className="md:text-[16px] text-[13px] ">
+            {/* <p className="md:text-[16px] text-[13px] ">
               Xtrempay offers a comprehensive suite of solutions designed to
               empower individuals and businesses. Our flagship products, Passabi
               and Moola, provide innovative approaches to savings, credit, and
               financial management, ensuring that even the most vulnerable
               communities can seize opportunities and pave their own path to
               prosperity
-            </p>
+            </p> */}
             <p className="mt-4 md:text-[16px] text-[13px] ">
               Our impact extends far beyond traditional financial services. By
               providing tools that enable financial independence, Xtrempay is

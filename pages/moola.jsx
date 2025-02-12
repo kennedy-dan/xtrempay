@@ -113,7 +113,7 @@ const Moola = () => {
                 Create a weekly, monthly and quarterly saving plan, And get a
                 chance{" "}
                 <span className="text-primary">to win cash prizes. </span>
-                Your deposit is save.
+                
               </p>
             </div>
 

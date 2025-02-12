@@ -53,7 +53,7 @@ const Use = () => {
               traditional banking with a bit of fun and excitement. Create a
               weekly, monthly and quarterly saving plan, And get a chance{" "}
               <span className="text-primary">to win cash prizes. </span>
-              Your deposit is save.
+              
             </p>
           </div>
 
